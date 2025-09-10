@@ -2,7 +2,7 @@
 import { defineAbility } from 'nuxt-authorization/utils'
 
 const createProduct = defineAbility(() => {
-  console.log(createProduct)
+  console.log("this is createProduct")
   return true
 })
 </script>
